@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="SongSorter">
+      <file>dropSongsHere.png</file>
+    </qresource>
+</RCC>

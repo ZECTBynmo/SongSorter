@@ -98,8 +98,8 @@ void DropArea::paintEvent(QPaintEvent *) {
 	QPainter* pPainter = new QPainter(this);
 	
 	// Setup background and "drop files here" pixmaps
-	QPixmap pDropHerePixmap= QPixmap("C://Users//ZECTBynmo//Documents//Visual Studio 2008//Projects//SongSorter//SongSorter//dropSongsHere.png");
-	QPixmap pBackgroundPixmap= QPixmap("C://Users//ZECTBynmo//Documents//Visual Studio 2008//Projects//SongSorter//SongSorter//DropAreaBackground.png");
+	QPixmap pDropHerePixmap= QPixmap("./Images/dropSongsHere.png");
+	QPixmap pBackgroundPixmap= QPixmap("./Images/DropAreaBackground.png");
 	
 	// Calculate the xy point that centers our drop here pixmap
 	uint xMidDropHere= pDropHerePixmap.rect().width()/2,

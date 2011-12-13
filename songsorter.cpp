@@ -135,7 +135,7 @@ void SongSorter::paintEvent(QPaintEvent *pe) {
 	// Setup our background image
 	QPainter* pPainter = new QPainter(this);
 	pPainter->drawPixmap( m_pFileMenu->x()-2, m_pFileMenu->height()-2, width() + 3, height()-m_pFileMenu->height()+2, 
-						  QPixmap("C://Users//ZECTBynmo//Documents//Visual Studio 2008//Projects//SongSorter//SongSorter//Background3.png"));
+						  QPixmap("./Images/Background3.png"));
 						  
 	delete pPainter;
 	QWidget::paintEvent(pe);

@@ -49,7 +49,7 @@ namespace {
 		NUM_SORT_METHODS
 	};
 	
-	const char* const SORT_METHOD_LABELS[NUM_SORT_METHODS]= { "True Peak", "Range Peak", "Range Average" };
+	const char* const SORT_METHOD_LABELS[NUM_SORT_METHODS]= { "Peak Frequency", "Peak Frequency in Range", "Peak Frequency in Range Average" };
 }
 
 SongSorter::SongSorter(QWidget *parent, Qt::WFlags flags) : QMainWindow(parent, flags),

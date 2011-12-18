@@ -1,1 +1,1 @@
-SongSorter is a program that takes .wav files and sorts them by frequency. The code is ugly, and I'm not actively working on it now, but here it is!
+SongSorter is a program that takes .wav files and sorts them by frequency. It is also a sandbox for an audio engine and file IO -> audio capabilities

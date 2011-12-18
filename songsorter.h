@@ -31,8 +31,6 @@ private:
 	struct SongInfo {
 		SongInfo();		//!< Our SongInfo constructor
 		
-		bool operator() (int i,int j) { return (i<j); }
-		
 		QString strFilePath;	//!< Our file path
 		
 		float fMaxFreq,			//!< The frequency with the highest energy in the file
